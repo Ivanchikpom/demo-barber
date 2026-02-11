@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>BarberCut — барбершоп у твоєму місті</title>
+  <meta name="description" content="Демо-проєкт: сайт-візитка барбершопу. Послуги, ціни, відгуки, контакти та форма запису." />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="#top">Barber<span>Cut</span></a>
+
+    <button class="burger" id="burger" aria-label="Меню">☰</button>
+
+    <nav class="menu" id="menu">
+      <a href="#services">Послуги</a>
+      <a href="#prices">Ціни</a>
+      <a href="#reviews">Відгуки</a>
+      <a href="#contacts" class="cta">Запис</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <p class="badge">Демо-проєкт • Сайт-візитка</p>
+        <h1>Стильна стрижка та борода — швидко і якісно</h1>
+        <p class="lead">
+          Запис онлайн за 1 хвилину. Працюємо щодня, зручний графік та чесні ціни.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn" href="#contacts">Записатися</a>
+          <a class="btn ghost" href="#prices">Дивитися ціни</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat">
+            <div class="stat-num">10+</div>
+            <div class="stat-text">років досвіду</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">4.9★</div>
+            <div class="stat-text">середня оцінка</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">500+</div>
+            <div class="stat-text">задоволених клієнтів</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="hero-photo" role="img" aria-label="Фото барбера"></div>
+        <div class="hero-card-inner">
+          <h3>Швидкий запис</h3>
+          <p>Залиш заявку — ми відповімо в Telegram протягом 10–30 хв.</p>
+          <a class="mini-cta" href="#contacts">Записатися →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section" id="services">
+    <div class="container">
+      <h2>Послуги</h2>
+      <p class="sub">Все, що потрібно для охайного вигляду.</p>
+
+      <div class="grid">
+        <article class="card">
+          <h3>Чоловіча стрижка</h3>
+          <p>Підбір форми під тип обличчя та стиль.</p>
+        </article>
+
+        <article class="card">
+          <h3>Борода</h3>
+          <p>Оформлення, стрижка, догляд, контури.</p>
+        </article>
+
+        <article class="card">
+          <h3>Комплекс</h3>
+          <p>Стрижка + борода. Найвигідніше.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICES -->
+  <section class="section alt" id="prices">
+    <div class="container">
+      <h2>Ціни</h2>
+      <p class="sub">Прозоро та без “сюрпризів”.</p>
+
+      <div class="price-grid">
+        <div class="price">
+          <h3>Стрижка</h3>
+          <div class="price-num">300 грн</div>
+          <ul>
+            <li>Консультація</li>
+            <li>Миття (за потреби)</li>
+            <li>Укладка</li>
+          </ul>
+          <a class="btn small" href="#contacts">Запис</a>
+        </div>
+
+        <div class="price featured">
+          <div class="tag">Топ</div>
+          <h3>Комплекс</h3>
+          <div class="price-num">500 грн</div>
+          <ul>
+            <li>Стрижка</li>
+            <li>Борода</li>
+            <li>Укладка</li>
+          </ul>
+          <a class="btn small" href="#contacts">Запис</a>
+        </div>
+
+        <div class="price">
+          <h3>Борода</h3>
+          <div class="price-num">250 грн</div>
+          <ul>
+            <li>Оформлення</li>
+            <li>Контури</li>
+            <li>Догляд</li>
+          </ul>
+          <a class="btn small" href="#contacts">Запис</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="section" id="reviews">
+    <div class="container">
+      <h2>Відгуки</h2>
+      <p class="sub">Демо-відгуки (для прикладу оформлення).</p>
+
+      <div class="grid">
+        <article class="review">
+          <p>“Все чітко, швидко і дуже якісно. Повернусь ще!”</p>
+          <span>— Андрій</span>
+        </article>
+
+        <article class="review">
+          <p>“Підібрали форму стрижки, як я хотів. Супер сервіс.”</p>
+          <span>— Максим</span>
+        </article>
+
+        <article class="review">
+          <p>“Оформлення бороди топ. Зручно, що є онлайн-запис.”</p>
+          <span>— Дмитро</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTS -->
+  <section class="section alt" id="contacts">
+    <div class="container contact-grid">
+      <div>
+        <h2>Запис / Контакти</h2>
+        <p class="sub">
+          Напиши в Telegram або залиш заявку через форму.
+        </p>
+
+        <div class="contact-box">
+          <a class="contact-link" href="https://t.me/your_nick" target="_blank">💬 Telegram: @your_nick</a>
+          <a class="contact-link" href="tel:+380000000000">📞 Телефон: +380 00 000 00 00</a>
+          <a class="contact-link" href="mailto:example@gmail.com">✉️ Email: example@gmail.com</a>
+          <p class="hint">*Підставиш свої реальні контакти.</p>
+        </div>
+      </div>
+
+      <!-- Netlify form -->
+      <form class="form"
+            name="booking"
+            method="POST"
+            data-netlify="true"
+            action="thanks.html">
+        <input type="hidden" name="form-name" value="booking" />
+
+        <h3>Заявка на запис</h3>
+
+        <label>
+          Ім’я
+          <input type="text" name="name" placeholder="Іван" required>
+        </label>
+
+        <label>
+          Контакт (Telegram або телефон)
+          <input type="text" name="contact" placeholder="@telegram або +380..." required>
+        </label>
+
+        <label>
+          Послуга
+          <select name="service" required>
+            <option value="" disabled selected>Оберіть</option>
+            <option>Стрижка</option>
+            <option>Борода</option>
+            <option>Комплекс</option>
+          </select>
+        </label>
+
+        <label>
+          Коментар
+          <textarea name="message" placeholder="Бажаний час/дата, побажання..."></textarea>
+        </label>
+
+        <button class="btn" type="submit">Надіслати заявку</button>
+        <p class="form-note">Демо: заявки збережуться в Netlify Forms.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container foot">
+    <p>© 2026 BarberCut (демо-проєкт). Зроблено IvanWeb.</p>
+    <a class="to-top" href="#top">↑ Вгору</a>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
